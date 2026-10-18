@@ -1,5 +1,5 @@
 blueprint:
-  name: Aqara Rotary Knob H1 – Brightness & Blind/Cover Position (Z2M)
+  name: Aqara Rotary Knob H1 – Brightness & Blind/Cover Position v2 (Z2M)
   description: |-
     Modified version of the Aqara Rotary Knob H1 blueprint by kkqq9320.
     Pressed rotation now controls a **cover (blind) position** instead of the
