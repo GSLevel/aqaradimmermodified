@@ -440,7 +440,7 @@ action:
       HOLD_STOPPED: false
       ROTATION_LATEST_ACTION: "{{ trigger.payload_json.action | default('') }}"
       ROTATION_LATEST_ANGLE: >-
-        {{ trigger.payload_json.action_rotation_angle | float(0) }}
+        {{ trigger.payload_json.get('action_rotation_angle', 0) | float(0) }}
       ROTATION_LATEST_BUTTON_STATE: >-
         {{ trigger.payload_json.action_rotation_button_state |
           default('', true) }}
