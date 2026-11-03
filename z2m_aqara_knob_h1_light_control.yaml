@@ -1,5 +1,5 @@
 blueprint:
-  name: Aqara Rotary Knob H1 – Adjustable Brightness & Color Temperature (Z2M)
+  name: Aqara Rotary Knob H1 – Adjustable Brightness & Color Temperature (Z2M) fixed
   description: |-
     ## BREAKING CHANGES - READ BEFORE UPDATING
       - Home Assistant Core `2025.4` or newer is now required.
